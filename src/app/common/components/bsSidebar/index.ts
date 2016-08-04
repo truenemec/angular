@@ -1,0 +1,2 @@
+export * from './bsSidebar.component';
+
