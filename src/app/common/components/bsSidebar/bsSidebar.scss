@@ -1,0 +1,10 @@
+@import '../../sass/variables.scss';
+
+$sidebar-color: black;
+
+.bs-sidebar{
+  background-color: $sidebar-color;
+  width: $sidebar-width;
+  height: 100%;
+  position: fixed;
+}

@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'page-not-found',
-    template: `
-    <div>
-      <h1>404: page missing</h1>
-    </div>
-  `
+    template: require("./page-not-found.html")
 })
 
 export class PageNotFound {

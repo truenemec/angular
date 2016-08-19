@@ -6,11 +6,14 @@ import { BsFooter } from '../common/components/bsFooter';
 
 @Component({
     selector: "pages",
-    template: `
+    template: `<div class="page-wrapper">
     <bs-header></bs-header>
     <bs-sidebar></bs-sidebar>
-    <router-outlet></router-outlet>
-    <bs-footer></bs-footer>`,
+    <div class="bs-main">
+        <router-outlet></router-outlet>
+    </div>
+    <bs-footer></bs-footer>
+    </div>`,
     directives: [ROUTER_DIRECTIVES, BsHeader, BsSidebar, BsFooter]
 })
 export class Pages {
